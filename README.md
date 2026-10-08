@@ -34,26 +34,31 @@ What this repository demonstrates:
 Below are selected transactions used across labs to validate end-to-end process execution.
 
 ### SD — Sales & Distribution
+
 - VA21 — Create Sales Quotation
 - VA01 — Create Sales Order
 - VL01N — Create Delivery
 - VF01 — Billing Document
 
 ### MM — Materials Management
+
 - ME21N — Create Purchase Order
 - ME49 — Price Comparison
 - MIGO — Goods Receipt
 
 ### PP — Production Planning
+
 - MM02 — Change Material Master (MRP View)
 - CO01 — Create Production Order
 
 ### FI — Financial Accounting
+
 - FS10N — G/L Account Balance Display
 - F-53 — Post Outgoing Payment
 - FBL1N — Vendor Line Item Display
 
 ### CO — Controlling
+
 - Cost element flow validation
 - Cross-module cost impact verification
 
@@ -65,13 +70,13 @@ Below are selected transactions used across labs to validate end-to-end process 
 
 All lab documents are available in the `labsummary/` folder.
 
-| Lab | Topic | Modules | Key Learning Outcome |
-|---|---|---|---|
-| Lab 1 | Order-to-Cash (O2C) | SD → FI | Executed the sales lifecycle from sales order to delivery and billing |
-| Lab 2 | Materials Management | MM | Practiced procurement lifecycle (PO → Goods Receipt → inventory updates) |
-| Lab 3 | Production Planning | PP | Worked with BOM, routing, and production order flow |
-| Lab 4 | Controlling | CO | Explored cost elements and internal cost flow |
-| Lab 5 | Integrated ERP Process | SD + MM + FI + CO | Validated cross-module integration across ERP workflow |
+| Lab   | Topic                  | Modules           | Key Learning Outcome                                         |
+| ----- | ---------------------- | ----------------- | ------------------------------------------------------------ |
+| Lab 1 | Order-to-Cash (O2C)    | SD → FI           | Executed the sales lifecycle from sales order to delivery and billing |
+| Lab 2 | Materials Management   | MM                | Practiced procurement lifecycle (PO → Goods Receipt → inventory updates) |
+| Lab 3 | Production Planning    | PP                | Worked with BOM, routing, and production order flow          |
+| Lab 4 | Controlling            | CO                | Explored cost elements and internal cost flow                |
+| Lab 5 | Integrated ERP Process | SD + MM + FI + CO | Validated cross-module integration across ERP workflow       |
 
 Lab documents are available in the **labsummary** folder.
 
@@ -167,14 +172,14 @@ Typical ERP workflows span multiple modules rather than a single transaction.
 
 Example integration demonstrated in these labs:
 
-| Process Step | SAP Module | Example Transaction |
-|---|---|---|
-| Sales quotation | SD | VA21 |
-| Sales order creation | SD | VA01 |
-| Delivery processing | SD / MM | VL01N |
-| Goods movement | MM | MIGO |
-| Billing | SD | VF01 |
-| Accounting validation | FI | FS10N / FBL1N |
+| Process Step          | SAP Module | Example Transaction |
+| --------------------- | ---------- | ------------------- |
+| Sales quotation       | SD         | VA21                |
+| Sales order creation  | SD         | VA01                |
+| Delivery processing   | SD / MM    | VL01N               |
+| Goods movement        | MM         | MIGO                |
+| Billing               | SD         | VF01                |
+| Accounting validation | FI         | FS10N / FBL1N       |
 
 This cross-module interaction highlights how **ERP systems synchronize operational activities with financial outcomes.**
 
